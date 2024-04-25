@@ -116,6 +116,8 @@ public class FirebaseAuthExample : MonoBehaviour
 
             StatusFirebase.text = "Auth Anonymous Completed";
 
+             ButtonLoginGuest.interactable = false;
+
             //Here you can call methods to continue the operation after successful login
             UpdateLastLoginDate(uidUserLogin);
         });
